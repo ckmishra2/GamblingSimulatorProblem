@@ -53,8 +53,8 @@ class Gambler {
 public class GamblingSimulator {
 	public static void main(String[] args) {
 		Gambler player = new Gambler();
-		//play for 20 days
-		for(int day=0;day<20;day++)
+		//play for a month
+		for(int day=0;day<30;day++)
 		{
 			player.play();
 		}
